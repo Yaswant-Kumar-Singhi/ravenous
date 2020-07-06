@@ -6,10 +6,6 @@ import ReactDOM from 'react-dom'
 
 import './Business.css'
 
-class Business extends React.Component{
-    
-    render(){
-        
 const business = {
     imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
@@ -21,6 +17,12 @@ const business = {
   rating: 4.5,
   reviewCount: 90
 }
+
+
+class Business extends React.Component{
+    
+    render(){
+        
         return(
             <div className="Business">
                 <div className="image-container">
