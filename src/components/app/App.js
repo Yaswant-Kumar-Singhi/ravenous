@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../../src/logo.svg';
 import './App.css';
-import Business from '../Business/Business'
+import BusinessList from '../BusinessList/BusinessList'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         </a>
 
       </header>
-      <Business />
+      <BusinessList />
     </div>
   );
 }
