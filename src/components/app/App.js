@@ -4,7 +4,8 @@ import './App.css';
 import BusinessList from '../BusinessList/BusinessList'
 import SearchBar from '../SearchBar/SearchBar'
 
-function App() {
+class App extends React.Component {
+  render(){
   return (
     <div className="App">
       <h1>ravenous</h1>
@@ -12,6 +13,7 @@ function App() {
       <SearchBar />
     </div>
   );
+  }
 }
 
 export default App;
